@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            background-color: #eff4fd;
+
+        }
+
+        .container {
+            width: 500px;
+            height: 200px;
+            border: none display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            margin: auto;
+            margin-top: 100px;
+        }
+
+        .hero {
+            position: relative;
+            width: 100%;
+            background: #eff4fd;
+            position: relative;
+        }
+
+        nav {
+            display: flex;
+            width: 84%;
+            margin: auto;
+            padding: 20px 0;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            /* width: 100px;
+    cursor: pointer; */
+
+            font-size: 40px;
+            color: hsl(27, 92%, 50%);
+
+        }
+
+        span {
+            color: orange;
+
+        }
+
+        .logo:hover {
+            color: orange;
+        }
+
+        nav ul li {
+            display: inline-block;
+            list-style: none;
+            margin: 10px 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #000;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        nav ul li a:hover {
+            color: red;
+        }
+        
+        .project1{
+            width: 250px;
+            height: 300px;
+            background-position: center;
+            background-size: cover;
+            
+            background-image: url(./ProjectPhotos/knightbite.png);
+        }
+
+        .project2{
+            width: 250px;
+            height: 300px;
+            background-position: center;
+            background-size: cover;
+            
+            background-image: url(./ProjectPhotos/digital\ clock.png);
+        }
+
+        .project3{
+            width: 250px;
+            height: 300px;
+            background-size: cover;
+            
+            background-image: url(./ProjectPhotos/Bootsrap.png);
+            background-position: center;
+        }
+
+        .project4{
+            width: 250px;
+            height: 300px;
+            background-size: cover;
+            
+            background-image: url(./ProjectPhotos/personal\ Portfolio.png);
+            background-position: center;
+        }
+
+        .projects{
+
+            margin-top: 130px;
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            
+            align-items: center;
+        }
+        .project{
+           text-align: center;
+           box-shadow: 10px 10px 10px black;
+          transform: rotate(10deg);
+           border-radius: 20px;
+        }
+
+        .project:hover{
+          transform: rotate(-40deg);
+          transition: all 3s ease;
+        }
+
+        .project h1{
+            background-color: red;
+            color: white;
+            margin: 30px;
+            padding: 1px;
+            border-radius: 40px;
+        }
+
+        .project p{
+           font-size: 20px;
+           margin: 20px;
+           color:white;
+           background-color: rgb(244, 132, 132);
+           border-radius: 20px;
+           padding: 10px;
+           box-shadow: 10px 10px 10px black;
+           font-weight: bold;
+        }
+
+        .project a{
+          text-decoration: none;
+          font-size: 20px;
+          color: white;
+        }
+        .project button{
+           padding: 10px;
+           border-radius: 40px;
+           background-color: green;
+           transition: all 5s ease;
+        }
+       
+    </style>
+</head>
+
+<body>
+    <div class="hero">
+        <nav>
+            <a href="index.html" class="logo" style="text-decoration: none;"><span>S</span>aurav Bir</h1></a>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="About.html">ABOUT</a></li>
+                <li><a href="Portfolio.htm">PORTFOLIO</a></li>
+                <li><a href="Hireme.html">HIRE ME</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="projects">
+        <div class="project1 project">
+                <h1>KnightBite</h1>
+                <p>KnightBite website create by HTML , CSS and JavaScript</p>
+                <button><a href="https://github.com/sauravkumarbir/knight-bite-frontend-website">Check on Github</a></button>
+        </div>
+        <div class="project2 project">
+            <h1>Digital Clock </h1>
+            <p>Digital Clock website create by HTML , CSS and JavaScript</p>
+            <button><a href="https://github.com/sauravkumarbir/digitalclock">Check on Github</a></button>
+        </div>
+        <div class="project3 project">
+            <h1>Bootstrap</h1>
+            <p>Bootsrap website create by HTML , CSS and JavaScript</p>
+            <button><a href="https://github.com/sauravkumarbir/Bootstrap">Check on Github</a></button>
+        </div>
+        <div class="project4 project">
+            <h1>Portfolio</h1>
+            <p>Personal Portfolio website create by HTML , CSS and JavaScript</p>
+            <button><a href="">Check on Github</a></button>
+        </div>
+    </div>
+
+</body>
+
+</html>
